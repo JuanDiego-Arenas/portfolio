@@ -23,7 +23,7 @@ h3, h2, h1 {
 .container-header {
     background-color: rgba(48, 48, 48, 0.98);
     transition: background-color 0.5s ease; /* transición suave */
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
@@ -83,10 +83,11 @@ h3, h2, h1 {
         ),
         url("../img/fondo.jpeg") no-repeat center center;
     background-size: cover;
-    height: 55vw;
+    height: 100vh;
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .inicio .container-banner {
@@ -880,13 +881,6 @@ footer .arriba:hover {
 }
 
 /*================ Media Queries - Responsive ================*/
-
-/* Responsive a 1300px */
-@media screen and (max-width: 1300px) {
-    .inicio {
-        height: 100vw;
-    }
-}
 
 /* Ocultar el menú */
 @media screen and (max-width: 980px) {
