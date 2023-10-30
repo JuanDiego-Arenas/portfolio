@@ -5,6 +5,8 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 	<link rel="stylesheet" href="./css/styles.css" />
 	<title>Portfolio</title>
@@ -12,7 +14,31 @@
 
 <body>
 	<!-- Menu Header -->
-	<div class="container-header">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg text-whit d-flex" data-bs-theme="dark">
+			<div class="container-fluid d-flex justify-content-around">
+				<div class="logo">
+					<a class="navbar-brand" href="#">@JDA.dev</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="#inicio">Inicio</a>
+						<a class="nav-link" href="#sobremi">Sobre Mi</a>
+						<a class="nav-link" href="#skills">Skills</a>
+						<a class="nav-link" href="#curriculum">Curriculum</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+						<a class="nav-link" href="#contacto">Contacto</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- <div class="container-header">
 		<header>
 			<div class="logo">
 				<a href="#">@JDA.dev</a>
@@ -31,7 +57,7 @@
 				<i class="fa-solid fa-bars"></i>
 			</div>
 		</header>
-	</div>
+	</div> -->
 
 	<!-- Section Inicio -->
 	<section id="inicio" class="inicio">
@@ -58,7 +84,10 @@
 		<div class="container-section">
 			<h2>Sobre Mi</h2>
 			<p>
-				<span>Hola, soy Juan Diego,</span> y soy un desarrollador de software y programador backend con experiencia en tecnologías actuales como , JavaScript, Node.js, React.js, Python y con la intención de aprender nuevas tecnologías y reforzar las actuales. Me destaco por mi liderazgo y buen trabajo en equipo
+				<span>Hola, soy Juan Diego,</span> y soy un desarrollador de software y programador backend con
+				experiencia en tecnologías actuales como , JavaScript, Node.js, React.js, Python y con la intención de
+				aprender nuevas tecnologías y reforzar las actuales. Me destaco por mi liderazgo y buen trabajo en
+				equipo
 			</p>
 			<div class="fila">
 				<!-- Datos Personales -->
@@ -75,7 +104,8 @@
 						</li>
 						<li>
 							<strong>Website</strong>
-							<a href="https://juandiego-arenas.github.io/portfolio/" target="_blank"><u>www.juandiego.dev</u></a>
+							<a href="https://juandiego-arenas.github.io/portfolio/"
+								target="_blank"><u>www.juandiego.dev</u></a>
 						</li>
 						<li>
 							<strong>Dirección</strong>
@@ -265,7 +295,10 @@
 						<span class="casa">Universidad Autónoma de Bucaramanga</span>
 						<span class="fecha">2022 - 2022</span>
 						<p>
-							Programa Misión TIC, financiado por el ministerio de las TICs y certificado de alta calidad por la UNAB en <a href="https://drive.google.com/file/d/1L9MpEK7gDYEfIWeUmPrdZcfpNLb6eSKv/view?usp=sharing" target="_blank" style="color: #4ebb48;"><strong>Técnico Laboral Web</strong></a>
+							Programa Misión TIC, financiado por el ministerio de las TICs y certificado de alta calidad
+							por la UNAB en <a
+								href="https://drive.google.com/file/d/1L9MpEK7gDYEfIWeUmPrdZcfpNLb6eSKv/view?usp=sharing"
+								target="_blank" style="color: #4ebb48;"><strong>Técnico Laboral Web</strong></a>
 						</p>
 						<div class="conector-i">
 							<div class="circulo-i"></div>
@@ -529,7 +562,8 @@
 							</li>
 							<li>
 								<i class="fa-solid fa-phone"></i>
-								LLlámame: <a href="https://wa.me/573202766813" target="_blank"><u>+57 320 276 6813</u></a>
+								LLlámame: <a href="https://wa.me/573202766813" target="_blank"><u>+57 320 276
+										6813</u></a>
 							</li>
 							<li>
 								<i class="fa-solid fa-envelope"></i>
@@ -556,6 +590,9 @@
 			<a href="https://github.com/JuanDiego-Arenas" target="_blank"><i class="fa-brands fa-github"></i></a>
 		</div>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 	<script src="./js/script.js"></script>
 </body>
 

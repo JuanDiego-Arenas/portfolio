@@ -20,7 +20,7 @@ h3, h2, h1 {
 }
 
 /*================ Menu ================*/
-.container-header {
+.header {
     background-color: rgba(48, 48, 48, 0.98);
     transition: background-color 0.5s ease; /* transición suave */
     position: sticky;
@@ -40,11 +40,12 @@ h3, h2, h1 {
     padding: 15px 20px;
 }
 
-.container-header header .logo a {
+.logo a {
     font-family: Righteous;
     font-size: 36px;
     color: #3e923a;
     text-decoration: none;
+    pointer-events: none;
 }
 
 .container-header header ul {
