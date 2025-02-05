@@ -568,17 +568,27 @@ h3, h2, h1 {
     margin-bottom: 10px;
 }
 
-.curriculum .fila .item .casa {
+.curriculum .fila .item h4 {
     color: #3e923a;
     font-size: 20px;
     font-weight: bold;
     display: block;
 }
 
-.curriculum .fila .item .fecha {
+.curriculum .fila .item {
     display: block;
     color: #3e923a;
     margin-bottom: 10px;
+}
+
+.fecha {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.casa {
+    color: #fff;
+    display: block;
 }
 
 .curriculum .fila .item p {
